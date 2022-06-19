@@ -1,0 +1,12 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"jsxImportSource": "solid-js",
+		"paths": {
+			"~": ["src"],
+			"~/*": ["src/*"]
+		},
+		"types": ["vite/client"]
+	}
+}

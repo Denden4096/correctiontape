@@ -1,0 +1,26 @@
+name: "🚀 Feature request"
+description: Suggest an idea for this project
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest the new feature 🎉
+  - type: dropdown
+    id: project
+    attributes:
+      label: Which project is it related to?
+      description: Please select the project to which this new feature relates from the select box below.
+      options:
+        - Global
+				- Portal page
+				- Periodic Table (Designer's ver.)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What new features?
+      description: Please be clear and detailed.
+      placeholder: Bug description
+    validations:
+      required: true

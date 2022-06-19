@@ -1,0 +1,26 @@
+name: "🐞 Bug report"
+description: Report a bug related to this project
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report the bug 🎉
+  - type: dropdown
+    id: project
+    attributes:
+      label: Which project has the bug?
+      description: Please select the project in which this bug occurred from the select box below.
+      options:
+        - Global
+				- Portal page
+				- Periodic Table (Designer's ver.)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What bug(s) did you encounter?
+      description: Please be clear and detailed.
+      placeholder: Bug description
+    validations:
+      required: true

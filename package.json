@@ -1,0 +1,48 @@
+{
+	"name": "correctiontape",
+	"version": "1.0.1",
+	"license": "MPL-2.0",
+	"private": true,
+	"scripts": {
+		"lint": "run-p -s lint:*",
+		"lint:js": "eslint --cache \"**/*.{js,ts,tsx}\"",
+		"lint:style": "stylelint --cache \"**/*.{css,scss,ts,tsx}\"",
+		"lint:prettier": "prettier --cache --write --loglevel warn \"**/*.{js,ts,tsx,json}\"",
+		"build": "run-s -s build:*",
+		"build:clean": "rimraf dist packages/*/dist",
+		"build:each": "npm run build -ws",
+		"build:public": "cd public && copyfiles **/* ../dist/",
+		"build:end": "rimraf packages/*/dist && echo Successfully built!",
+		"commit": "node ./node_modules/cz-customizable/standalone.js"
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"devDependencies": {
+		"@stylelint/postcss-css-in-js": "^0.38.0",
+		"@tsconfig/node16-strictest-esm": "^1.0.2",
+		"@typescript-eslint/eslint-plugin": "^5.28.0",
+		"@typescript-eslint/parser": "^5.28.0",
+		"copyfiles": "^2.4.1",
+		"cz-customizable": "^6.3.0",
+		"eslint": "^8.17.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-import-resolver-typescript": "2.7.1",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsx-a11y": "^6.5.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^6.0.0",
+		"eslint-plugin-solid": "^0.7.0",
+		"eslint-plugin-unused-imports": "^2.0.0",
+		"npm-run-all": "^4.1.5",
+		"postcss-syntax": "^0.36.2",
+		"prettier": "^2.7.1",
+		"rimraf": "^3.0.2",
+		"stylelint": "^14.9.1",
+		"stylelint-config-prettier": "^9.0.3",
+		"stylelint-config-standard": "^26.0.0",
+		"stylelint-prettier": "^2.0.0",
+		"typescript": "^4.7.3"
+	}
+}

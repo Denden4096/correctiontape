@@ -1,0 +1,32 @@
+{
+	"name": "@correctiontape/portal",
+	"version": "1.0.0",
+	"license": "MPL-2.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite",
+		"build": "run-s -s build:*",
+		"build:vite": "vite build",
+		"build:copy": "cd dist && copyfiles **/* ../../../dist/",
+		"serve": "vite preview"
+	},
+	"devDependencies": {
+		"@fontsource/public-sans": "^4.5.9",
+		"devcert": "^1.2.2",
+		"fela": "^12.1.2",
+		"fela-dom": "^12.1.2",
+		"fela-plugin-hover-media": "^12.1.2",
+		"fela-plugin-prefixer": "^12.1.2",
+		"sass": "^1.52.3",
+		"unplugin-auto-import": "^0.8.7",
+		"vite": "^2.9.10",
+		"vite-plugin-solid": "^2.2.6",
+		"vite-tsconfig-paths": "^3.5.0"
+	},
+	"dependencies": {
+		"@sergeymakinen/vite-plugin-html-minimize": "^1.0.2",
+		"destyle.css": "^3.0.2",
+		"solid-js": "^1.4.4",
+		"solid-utils": "^0.8.1"
+	}
+}

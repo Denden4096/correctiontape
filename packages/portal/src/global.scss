@@ -1,0 +1,31 @@
+html {
+	font-family: "Public SansVariable", sans-serif;
+	font-size: max(1rem, 16px);
+	text-rendering: optimizeLegibility;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-print-color-adjust: exact;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	scrollbar-width: none;
+}
+
+::-webkit-scrollbar,
+::-webkit-resizer {
+	display: none;
+}
+
+body {
+	min-width: 100vh;
+	line-height: 1.5;
+	color: #694133;
+	background-color: #f4ead1;
+	letter-spacing: -0.02em;
+	overflow-x: hidden;
+	user-select: none;
+}
+
+#wrapper {
+	position: relative;
+	width: 100vw;
+	min-height: 100vh;
+}
