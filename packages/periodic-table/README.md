@@ -6,7 +6,7 @@ By the way, adding `?clean` after the URL makes it a little cleaner for screensh
 
 ## Can I use it for XXX?
 
-Probably yes. I think most of the time it will be fine. If you are concerned, contact me at `contact@correctiontape.me`.
+Probably yes. I think most of the time it will be fine. If you are concerned, contact me at `hello@correctiontape.me`.
 
 ## What is this really about?
 
