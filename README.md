@@ -7,9 +7,10 @@ A ~~correction~~ collection of my personal projects.
 
 This is a personal project, but you're more than welcome to contribute to improving the project! 🎉
 
-No matter what you do, you will not be so offended.[^1]
+No matter what you do, you will not be so offended.[^1][^2]
 
-[^1]: 日本語で話してもらっても大丈夫です。
+[^1]: When committing, do `npm run commit` instead of `git commit`.
+[^2]: 別に、日本語で話してもらっても大丈夫です。
 
 ## List of projects
 
