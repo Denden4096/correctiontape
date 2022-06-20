@@ -2,7 +2,7 @@ import { tableExtended, setTableExtended, showingElem } from "~/signals"
 import { mixins, palettes, style, transition, variables } from "~/styles"
 
 const styleFocusing = style({
-	borderBottomColor: "#03a9f4 !important"
+	borderBottomColor: "currentcolor!important"
 })
 
 export const Options = (): JSX.Element => (
