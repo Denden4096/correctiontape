@@ -12,6 +12,10 @@ Probably yes. I think most of the time it will be fine. If you are concerned, co
 
 This is a study for learning [SolidJS](https://github.com/solidjs/solid).
 
+## Resources used
+
+* [Feather](https://github.com/feathericons/feather) (MIT License)
+
 ## License
 
 [Mozilla Public License 2.0](../../LICENSE)
