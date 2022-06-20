@@ -12,8 +12,8 @@ body:
       description: Please select the project in which this bug occurred from the select box below.
       options:
         - Global
-				- Portal page
-				- Periodic Table (Designer's ver.)
+        - Portal page
+        - Periodic Table (Designer's ver.)
     validations:
       required: true
   - type: textarea
