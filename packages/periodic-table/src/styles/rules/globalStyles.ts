@@ -7,12 +7,10 @@ import "@fontsource/merriweather/700.css"
 import "@fontsource/inter/400.css"
 import "@fontsource/inter/500.css"
 import "@fontsource/inter/600.css"
-import "@fontsource/inter/variable-full.css"
 
 import "@fontsource/murecho/400.css"
 import "@fontsource/murecho/500.css"
 import "@fontsource/murecho/600.css"
-import "./murecho-variable.css"
 
 import { palettes } from "../constants/palette"
 
@@ -22,7 +20,7 @@ export const globalStyles = {
 	},
 
 	html: {
-		fontFamily: ["InterVariable", "Inter", "MurechoVariable", "Murecho", "sans-serif"].join(),
+		fontFamily: ["Inter", "Murecho", "sans-serif"].join(),
 		fontSize: "max(1rem, 16px)",
 		textRendering: "optimizeLegibility",
 		WebkitTapHighlightColor: "transparent",
