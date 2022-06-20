@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "run-s -s build:*",
-		"build:vite": "vite build",
+		"build:vite": "vite build --logLevel=warn",
 		"build:copy": "cd dist && copyfiles **/* ../../../dist/periodic-table",
 		"serve": "vite preview"
 	},
