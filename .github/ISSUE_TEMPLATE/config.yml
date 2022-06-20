@@ -1,1 +1,5 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
+contact_links:
+  - name: 📫 Contact me
+    url: https://correctiontape.me/
+    about: Please contact me via Twitter message or email.
