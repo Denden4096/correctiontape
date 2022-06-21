@@ -19,10 +19,10 @@ export default async ({ command }: ConfigEnv): Promise<UserConfigExport | FixedC
 	base: "/periodic-table/",
 	plugins: [
 		tsconfigPaths(),
-		solidPlugin(),
 		AutoImport({
 			imports: ["solid-js"]
 		}),
+		solidPlugin(),
 		htmlMinimize({
 			minifierOptions: {
 				collapseWhitespace: true,

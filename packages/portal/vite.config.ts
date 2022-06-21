@@ -18,7 +18,6 @@ type FixedConfig = {
 export default async ({ command }: ConfigEnv): Promise<UserConfigExport | FixedConfig> => ({
 	plugins: [
 		tsconfigPaths(),
-		solidPlugin(),
 		AutoImport({
 			imports: [
 				"solid-js",
@@ -27,6 +26,7 @@ export default async ({ command }: ConfigEnv): Promise<UserConfigExport | FixedC
 				}
 			]
 		}),
+		solidPlugin(),
 		htmlMinimize({
 			minifierOptions: {
 				collapseWhitespace: true,
