@@ -1,8 +1,8 @@
-module.exports = {
-	plugins: ["stylelint-prettier"],
-	extends: ["stylelint-config-standard", "stylelint-config-prettier"],
-	customSyntax: "@stylelint/postcss-css-in-js",
-	rules: {
+{
+	"plugins": ["stylelint-prettier"],
+	"extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+	"customSyntax": "@stylelint/postcss-css-in-js",
+	"rules": {
 		"font-family-name-quotes": null,
 		"font-family-no-missing-generic-family-keyword": null,
 		"function-name-case": null,
