@@ -21,6 +21,6 @@ body:
     attributes:
       label: What new features?
       description: Please be clear and detailed.
-      placeholder: Bug description
+      placeholder: Feature description
     validations:
       required: true
