@@ -3,6 +3,7 @@ import * as devcert from "devcert"
 import AutoImport from "unplugin-auto-import/vite"
 import type { ConfigEnv, UserConfigExport } from "vite"
 import solidPlugin from "vite-plugin-solid"
+import WindiCSS from "vite-plugin-windicss"
 import tsconfigPaths from "vite-tsconfig-paths"
 
 type FixedConfig = {
@@ -27,6 +28,7 @@ export default async ({ command }: ConfigEnv): Promise<UserConfigExport | FixedC
 			]
 		}),
 		solidPlugin(),
+		WindiCSS(),
 		htmlMinimize({
 			minifierOptions: {
 				collapseWhitespace: true,

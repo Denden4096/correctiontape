@@ -1,0 +1,32 @@
+.animate-nav-appear {
+	animation: nav-appear 1s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@keyframes nav-appear {
+	from {
+		transform: translateY(4rem);
+	}
+
+	to {
+		transform: translateY(0);
+	}
+}
+
+.text-verycool {
+	font-size: min(18vw, 10vmax, 12rem);
+}
+
+.animate-verycool {
+	animation: verycool 1s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@keyframes verycool {
+	from {
+		transform: translateY(1.3em);
+		transform: translateY(1lh);
+	}
+
+	to {
+		transform: translateY(0);
+	}
+}

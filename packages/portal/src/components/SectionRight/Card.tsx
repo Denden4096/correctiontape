@@ -2,91 +2,31 @@ export const Card = (props: { name: string; url: string; children: JSX.Element }
 	const [hovering, setHovering] = createSignal<boolean>(false)
 
 	return (
-		<article
-			class={style({
-				position: "relative",
-				width: "100%",
-				borderRadius: "0.5rem"
-			})}
-		>
+		<article class="relative w-full landscape:rounded-lg">
 			<a
 				href={props.url}
-				class={style({
-					display: "grid",
-					gridTemplateColumns: "1fr 1fr",
-					gap: "2rem",
-					width: "100%",
-
-					"@media (min-aspect-ratio: 4/3)": {
-						display: "flex",
-						justifyContent: "center",
-						alignItems: "center"
-					}
-				})}
+				class="landscape:(flex justify-center items-center gap-8) portrait:(grid grid-cols-[50%,1fr] gap-[6vmin]) w-full"
 				{...(props.url.indexOf(":") !== -1 && { target: "_blank", rel: "noopener noreferrer" })}
 				onMouseEnter={() => setHovering(true)}
 				onMouseLeave={() => setHovering(false)}
+				onFocus={() => setHovering(true)}
+				onBlur={() => setHovering(false)}
 			>
 				<div
-					class={style({
-						display: "grid",
-						placeItems: "center",
-						width: "100%",
-						backgroundColor: "#f4ead1",
-						borderRadius: "0.5rem",
-						aspectRatio: 1,
-						transition: "opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1)"
-					})}
+					class="grid place-items-center w-full bg-vanilla dark:bg-chocolate-dark rounded-lg aspect-square transition-opacity duration-200"
 					classList={{
-						[style({
-							opacity: 0.5
-						})]: hovering()
+						"landscape:opacity-50": hovering()
 					}}
 				>
 					{props.children}
 				</div>
 				<div
-					class={style({
-						"@media not (min-aspect-ratio: 4/3)": {
-							display: "flex",
-							justifyContent: "left",
-							alignItems: "center"
-						},
-
-						"@media (min-aspect-ratio: 4/3)": {
-							position: "absolute",
-							inset: 0,
-							zIndex: 3,
-							display: "grid",
-							placeItems: "center",
-							opacity: 0,
-							transition: "opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1)"
-						}
-					})}
+					class="landscape:(absolute inset-0 z-3 grid place-items-center opacity-0 transition-opacity duration-200) portrait:(flex justify-start items-center)"
 					classList={{
-						[style({
-							opacity: "1!important"
-						})]: hovering()
+						"!landscape:opacity-100": hovering()
 					}}
 				>
-					<div
-						class={style({
-							display: "inline-flex",
-							gap: "0.3em",
-							alignItems: "center",
-							fontSize: "3rem",
-							fontWeight: 600,
-
-							"@media (min-aspect-ratio: 4/3)": {
-								fontSize: "1.5rem",
-								padding: "0.5em 1em",
-								margin: "10%",
-								color: "#f4ead1",
-								backgroundColor: "#5a3428",
-								borderRadius: "0.25rem"
-							}
-						})}
-					>
+					<div class="inline-flex items-center font-600 !leading-relaxed landscape:(gap-1.5 text-2xl px-6 py-2 m-[10%] text-vanilla bg-chocolate-dark rounded) portrait:(gap-0.25em text-4vw)">
 						{props.name}
 						<Show when={props.url.indexOf(":") !== -1}>
 							<svg
@@ -94,13 +34,7 @@ export const Card = (props: { name: string; url: string; children: JSX.Element }
 								width="1em"
 								height="1em"
 								viewBox="0 0 24 24"
-								class={style({
-									fill: "none",
-									stroke: "currentcolor",
-									strokeWidth: "0.125rem",
-									strokeLinecap: "round",
-									strokeLinejoin: "round"
-								})}
+								class="fill-none stroke-current stroke-2 stroke-cap-round stroke-join-round"
 							>
 								<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6m4-3h6v6m-11 5L21 3" />
 							</svg>

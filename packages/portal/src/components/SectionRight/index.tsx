@@ -60,20 +60,7 @@ const cards: Readonly<
 ]
 
 export const SectionRight = (): JSX.Element => (
-	<main
-		class={style({
-			position: "relative",
-			display: "flex",
-			flexDirection: "column",
-			gap: "3rem",
-			alignItems: "center",
-			padding: "4vh 2.5vw",
-			color: "#f4ead1",
-			backgroundColor: "#5a3428",
-			overflowY: "scroll",
-			scrollbarWidth: "none"
-		})}
-	>
+	<main class="relative flex flex-col gap-[2.5vmax] items-center p-[2.5vmax] text-vanilla bg-chocolate-dark dark:(text-chocolate-dark bg-vanilla) overflow-y-scroll scrollbar-hide">
 		<For each={cards[0]}>
 			{(props) => (
 				<Card
@@ -83,10 +70,7 @@ export const SectionRight = (): JSX.Element => (
 					<img
 						src={`/assets/works/${props.image}`}
 						alt={props.name}
-						class={style({
-							width: "100%",
-							borderRadius: "0.5rem"
-						})}
+						class="w-full rounded-lg"
 					/>
 				</Card>
 			)}
@@ -102,13 +86,7 @@ export const SectionRight = (): JSX.Element => (
 						width="35%"
 						height="35%"
 						viewBox="0 0 24 24"
-						class={style({
-							fill: "none",
-							stroke: "#694133",
-							strokeWidth: "2px",
-							strokeLinecap: "round",
-							strokeLinejoin: "round"
-						})}
+						class="fill-none stroke-chocolate-shade dark:stroke-vanilla stroke-2 stroke-cap-round stroke-join-round"
 					>
 						{props.svg}
 					</svg>
