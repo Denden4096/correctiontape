@@ -10,5 +10,5 @@ export const subcategories = {
 	lanthanide: "#b61972",
 	actinide: "#a52175",
 	superactinide: "#932674",
-	unknown: "#455a64"
+	undiscovered: "#455a64"
 } as const

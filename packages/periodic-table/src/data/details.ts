@@ -1197,7 +1197,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: [322, null],
 		electrons: [2, 8, 18, 32, 32, 18, 8, 1],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1208,7 +1208,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: [325, null],
 		electrons: [2, 8, 18, 32, 32, 18, 8, 2],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1417,7 +1417,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 45, 20, 10, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1428,7 +1428,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 46, 21, 9, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1604,7 +1604,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 10, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1615,7 +1615,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 11, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1626,7 +1626,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 12, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1637,7 +1637,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 12, 4, 1],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1648,7 +1648,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 13, 4, 1],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1659,7 +1659,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 14, 4, 1],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1670,7 +1670,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 16, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1681,7 +1681,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 17, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1692,7 +1692,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 18, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1703,7 +1703,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 18, 4, 1],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1714,7 +1714,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 18, 4, 2],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1725,7 +1725,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 18, 4, 3],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1736,7 +1736,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 18, 4, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1747,7 +1747,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 18, 5, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1758,7 +1758,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 18, 6, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1769,7 +1769,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 18, 7, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	},
 	{
@@ -1780,7 +1780,7 @@ export const details: readonly {
 		radioactive: true,
 		atomicMass: null,
 		electrons: [2, 8, 18, 32, 50, 32, 18, 8, 4],
-		category: "unknown",
+		category: "undiscovered",
 		undiscovered: true
 	}
 ]

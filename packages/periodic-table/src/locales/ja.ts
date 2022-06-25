@@ -188,7 +188,7 @@ export const ja = defineLocale({
 		halogen: "ハロゲン",
 		nobleGas: "貴ガス",
 		superactinide: "超アクチノイド",
-		unknown: "不明"
+		undiscovered: "未発見"
 	},
 	sets: ["ランタノイド", "アクチノイド", "超アクチノイド"],
 	position: ["第$0族", "第$1周期"],

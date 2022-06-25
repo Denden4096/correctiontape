@@ -186,7 +186,7 @@ export const en = {
 		halogen: "Halogen",
 		nobleGas: "Noble gas",
 		superactinide: "Superactinide",
-		unknown: "Unknown"
+		undiscovered: "Undiscovered"
 	},
 	sets: ["Lanthanides", "Actinides", "Superactinides"],
 	position: ["Group $0", "Period $1"],
