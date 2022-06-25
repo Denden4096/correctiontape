@@ -8,6 +8,7 @@
 		"build": "run-s -s build:*",
 		"build:vite": "vite build --logLevel=warn",
 		"build:copy": "cd dist && copyfiles **/* ../../../dist/",
+		"build:end": "Built: @correctiontape/portal",
 		"serve": "vite preview"
 	},
 	"devDependencies": {
