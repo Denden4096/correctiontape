@@ -5,9 +5,9 @@
 	"private": true,
 	"scripts": {
 		"lint": "run-p -s lint:*",
-		"lint:js": "eslint --cache \"**/*.{js,ts,tsx}\"",
-		"lint:style": "stylelint --cache \"**/*.{css,scss,ts,tsx}\"",
-		"lint:prettier": "prettier --cache --write --loglevel warn \"**/*.{js,ts,tsx,json}\"",
+		"lint:js": "eslint --ignore-path .gitignore --cache \"**/*.{js,ts,tsx}\"",
+		"lint:style": "stylelint --ignore-path .gitignore --cache \"**/*.{css,scss,ts,tsx}\"",
+		"lint:prettier": "prettier --ignore-path .gitignore --cache --write --loglevel warn \"**/*.{js,ts,tsx,json}\"",
 		"build": "run-s -s build:*",
 		"build:clean": "rimraf dist packages/*/dist",
 		"build:each": "npm run build -ws",
