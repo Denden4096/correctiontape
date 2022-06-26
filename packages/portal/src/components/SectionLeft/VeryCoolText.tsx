@@ -9,7 +9,7 @@ export const VeryCoolText = (): JSX.Element => (
 						<For each={word.split("")}>
 							{(char: string, j: () => number): JSX.Element => (
 								<span
-									class="inline-block whitespace-nowrap translate-y-[1.3em] translate-y-[1lh] animate-verycool"
+									class="inline-block whitespace-nowrap translate-y-[1.3em] translate-y-[1lh] motion-safe:animate-verycool"
 									style={{
 										"animation-delay": `${i() * 150 + j() * 75}ms`
 									}}
