@@ -26,7 +26,7 @@ export const Card = (props: { name: string; url: string; children: JSX.Element }
 						"!landscape:opacity-100": hovering()
 					}}
 				>
-					<div class="inline-flex items-center font-600 !leading-relaxed landscape:(gap-1.5 text-2xl px-6 py-2 m-[10%] text-vanilla bg-chocolate-dark rounded) portrait:(gap-0.25em text-4vw)">
+					<div class="inline-flex items-center font-600 !leading-relaxed landscape:(gap-1.5 text-2xl px-6 py-2 m-[10%] text-vanilla bg-chocolate-dark rounded) shadow-card portrait:(gap-0.25em text-4vw)">
 						{props.name}
 						<Show when={props.url.indexOf(":") !== -1}>
 							<svg
