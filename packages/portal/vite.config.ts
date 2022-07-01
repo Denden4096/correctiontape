@@ -20,12 +20,7 @@ export default async ({ command }: ConfigEnv): Promise<UserConfigExport | FixedC
 	plugins: [
 		tsconfigPaths(),
 		AutoImport({
-			imports: [
-				"solid-js",
-				{
-					"~/style": ["style"]
-				}
-			]
+			imports: ["solid-js"]
 		}),
 		solidPlugin(),
 		WindiCSS(),
