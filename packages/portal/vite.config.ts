@@ -84,7 +84,7 @@ export default async ({ command }: ConfigEnv): Promise<UserConfigExport | FixedC
 					if (!name) return genericFileName
 
 					const filters: [RegExp, string][] = [
-						[/\.css$/g, "assets/style.css"],
+						[/\.css$/g, "assets/style.[hash].css"],
 						[/\.woff2?$/g, "assets/font/[hash].[ext]"]
 					]
 
