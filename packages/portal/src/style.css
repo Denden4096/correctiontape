@@ -31,7 +31,7 @@
 	}
 }
 
-@media (orientation: landscape){
+@media (orientation: landscape) {
 	.shadow-card {
 		box-shadow: 0 0.25rem 0.5rem rgba(12, 12, 13, 0.2);
 	}

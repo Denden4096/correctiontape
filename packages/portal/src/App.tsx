@@ -1,11 +1,8 @@
 /* eslint-disable import/order */
 
-import "destyle.css/destyle.min.css"
+import "destyle.css"
 import "@fontsource/public-sans/variable.css"
-
-// Windi CSS
 import "virtual:windi.css"
-
 import "./style.css"
 
 import { SectionLeft } from "~/components/SectionLeft"
