@@ -28,7 +28,7 @@ export default defineConfig({
 	},
 	plugins: [scrollSnapPlugin, aspectRatioPlugin],
 	extract: {
-		include: ["index.html", "src/**/*.{html,jsx,tsx}"],
+		include: ["*.html", "src/**/*.{html,jsx,tsx}"],
 		exclude: ["node_modules"]
 	}
 })

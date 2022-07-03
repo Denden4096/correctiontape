@@ -74,6 +74,10 @@ export default async ({ command }: ConfigEnv): Promise<UserConfigExport | FixedC
 			toplevel: true
 		},
 		rollupOptions: {
+			input: {
+				index: "index.html",
+				404: "404.html"
+			},
 			output: {
 				assetFileNames: ({ name }: { name: string }): string => {
 					const genericFileName = "assets/[hash].[ext]"
