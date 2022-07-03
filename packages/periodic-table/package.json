@@ -8,8 +8,7 @@
 		"build": "run-s -s build:*",
 		"build:vite": "vite build --logLevel=warn",
 		"build:copy": "cd dist && copyfiles **/* ../../../dist/periodic-table",
-		"build:end": "echo Built: @correctiontape/periodic-table",
-		"serve": "vite preview"
+		"build:end": "echo Built: @correctiontape/periodic-table"
 	},
 	"devDependencies": {
 		"devcert": "^1.2.2",

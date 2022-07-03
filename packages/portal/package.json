@@ -8,8 +8,7 @@
 		"build": "run-s -s build:*",
 		"build:vite": "vite build --logLevel=warn",
 		"build:copy": "cd dist && copyfiles **/* ../../../dist/",
-		"build:end": "echo Built: @correctiontape/portal",
-		"serve": "vite preview"
+		"build:end": "echo Built: @correctiontape/portal"
 	},
 	"devDependencies": {
 		"@fontsource/public-sans": "^4.5.9",
