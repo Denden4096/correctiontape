@@ -1,0 +1,5 @@
+Contact: mailto:hello@correctiontape.me
+Contact: https://github.com/Denden4096/correctiontape
+Expires: 2023-07-03T04:00:00.000Z
+Preferred-Languages: ja, en
+Canonical: https://correctiontape.me/.well-known/security.txt
