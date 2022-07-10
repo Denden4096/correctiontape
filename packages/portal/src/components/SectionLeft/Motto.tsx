@@ -1,8 +1,9 @@
-const motto: string[] = "Learn from the past, Create something new.".split(" ")
+const motto = "Learn from the past, Create something new."
+const mottoSplitted = motto.split(" ")
 
 export const Motto = (): JSX.Element => (
 	<h1 class="max-w-384 w-full portrait:(pt-24 pb-16) text-verycool font-800 leading-snug tracking-tighter">
-		<For each={motto}>
+		<For each={mottoSplitted}>
 			{(word: string, i: () => number): JSX.Element => (
 				<>
 					<span class="relative inline-block overflow-clip pr-[0.03em] pb-[0.07ex] whitespace-nowrap">
@@ -13,6 +14,7 @@ export const Motto = (): JSX.Element => (
 									style={{
 										"animation-delay": `${i() * 150 + j() * 75}ms`
 									}}
+									aria-hidden="true"
 								>
 									{char}
 								</span>
@@ -22,5 +24,6 @@ export const Motto = (): JSX.Element => (
 				</>
 			)}
 		</For>
+		<div class="sr-only">{motto}</div>
 	</h1>
 )
