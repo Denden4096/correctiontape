@@ -13,7 +13,7 @@ body:
       options:
         - Global
         - Portal page
-        - Periodic Table (Designer's ver.)
+        - Periodic Table (Designer’s ver.)
     validations:
       required: true
   - type: textarea

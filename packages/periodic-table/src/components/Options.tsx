@@ -110,7 +110,7 @@ export const Options = (): JSX.Element => (
 						}
 					})}
 				>
-					Pekka Pyykkö's extended periodic table
+					Pekka Pyykkö’s extended periodic table
 				</a>
 				.
 			</div>

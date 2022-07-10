@@ -1,7 +1,7 @@
 import { mixins, style, variables } from "~/styles"
 
 const titleText = "Periodic Table of the Elements"
-const subtitleText = "Designer's version"
+const subtitleText = "Designer’s version"
 
 export const Title = (): JSX.Element => (
 	<div

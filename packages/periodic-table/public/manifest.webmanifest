@@ -1,5 +1,5 @@
 {
-	"name": "Periodic Table of the Elements (Designer's version)",
+	"name": "Periodic Table of the Elements (Designer’s version)",
 	"short_name": "Periodic Table",
 	"description": "A nicely designed periodic table of the elements, with a brief detail of the elements that make up everything in this world.",
 	"start_url": "/periodic-table/",
@@ -9,6 +9,11 @@
 	"icons": [
 		{ "src": "/periodic-table/assets/icon-192.png", "type": "image/png", "sizes": "192x192" },
 		{ "src": "/periodic-table/assets/icon-512.png", "type": "image/png", "sizes": "512x512" },
-		{ "src": "/periodic-table/assets/icon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "any maskable" }
+		{
+			"src": "/periodic-table/assets/icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any maskable"
+		}
 	]
 }

@@ -1,12 +1,12 @@
 # correctiontape / portal
 
-I don't have anything to write here, so I'll just write some trivia.
+I don’t have anything to write here, so I’ll just write some trivia.
 
 The brown used on this page is not one color.
 
 ## Resources used
 
-* [Feather](https://github.com/feathericons/feather) (MIT License)
+- [Feather](https://github.com/feathericons/feather) (MIT License)
 
 ## License
 

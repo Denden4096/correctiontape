@@ -8,7 +8,7 @@ const cards: Readonly<
 	}[]
 > = [
 	{
-		name: "Periodic Table (Designer's ver.)",
+		name: "Periodic Table (Designer’s ver.)",
 		url: "/periodic-table/",
 		card: "periodic-table.png"
 	},

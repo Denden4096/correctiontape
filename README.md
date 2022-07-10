@@ -4,7 +4,7 @@ A ~~correction~~ collection of my personal projects.
 
 ## Contributing
 
-This is a personal project, but you're more than welcome to contribute to improving the project! 🎉
+This is a personal project, but you’re more than welcome to contribute to improving the project! 🎉
 
 No matter what you do, you will not be so offended.[^1][^2]
 
@@ -24,7 +24,7 @@ No matter what you do, you will not be so offended.[^1][^2]
 | Project | URL | Source | Progress | Status |
 | --- | --- | --- | :-: | :-: |
 | Portal page | [correctiontape.me](https://correctiontape.me) | [`packages/portal`](packages/portal) | 90% | ✅ |
-| Periodic Table (Designer's ver.) | [/periodic-table/](https://correctiontape.me/periodic-table/) | [`packages/periodic-table`](packages/periodic-table) | 95% | ✅ |
+| Periodic Table (Designer’s ver.) | [/periodic-table/](https://correctiontape.me/periodic-table/) | [`packages/periodic-table`](packages/periodic-table) | 95% | ✅ |
 
 For a description of each project, see the `README.md` of each project.
 
