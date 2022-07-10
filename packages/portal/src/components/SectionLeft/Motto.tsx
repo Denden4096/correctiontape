@@ -1,8 +1,8 @@
-const coolText: string[] = "Learn from the past, Create something new.".split(" ")
+const motto: string[] = "Learn from the past, Create something new.".split(" ")
 
-export const VeryCoolText = (): JSX.Element => (
+export const Motto = (): JSX.Element => (
 	<h1 class="max-w-384 w-full portrait:(pt-24 pb-16) text-verycool font-800 leading-snug tracking-tighter">
-		<For each={coolText}>
+		<For each={motto}>
 			{(word: string, i: () => number): JSX.Element => (
 				<>
 					<span class="relative inline-block overflow-clip pr-[0.03em] pb-[0.07ex] whitespace-nowrap">
