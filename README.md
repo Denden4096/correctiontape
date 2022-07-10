@@ -23,8 +23,8 @@ No matter what you do, you will not be so offended.[^1][^2]
 
 | Project | URL | Source | Progress | Status |
 | --- | --- | --- | :-: | :-: |
-| Portal page | [correctiontape.me](https://correctiontape.me) | [`packages/portal`](packages/portal) | 90% | ✅ |
-| Periodic Table (Designer’s ver.) | [/periodic-table/](https://correctiontape.me/periodic-table/) | [`packages/periodic-table`](packages/periodic-table) | 95% | ✅ |
+| Portal page | [correctiontape.me](https://correctiontape.me) | [`packages/portal`](packages/portal) | 100% | ✅ |
+| Periodic Table (Designer’s ver.) | [/periodic-table/](https://correctiontape.me/periodic-table/) | [`packages/periodic-table`](packages/periodic-table) | 100% | ✅ |
 
 For a description of each project, see the `README.md` of each project.
 
